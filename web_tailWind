@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-sans bg-white">
+    <!-- Header -->
+    <header class="flex justify-between items-center p-4 shadow">
+      <div class="text-green-600 font-bold text-xl">Travel</div>
+      <nav class="space-x-4 text-gray-700">
+        <a href="#">Home</a>
+        <a href="#">Tour</a>
+        <a href="#">Local Places</a>
+        <a href="#">Discount</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-orange-500 text-white text-center py-20">
+      <h2 class="text-2xl mb-4">Let's go now</h2>
+      <h1 class="text-4xl font-bold italic mb-6">explore and travel</h1>
+      <button
+        class="bg-white text-green-600 font-bold px-6 py-2 rounded hover:bg-green-100"
+      >
+        Explore Now
+      </button>
+    </section>
+
+    <!-- Image Strip -->
+    <section class="flex justify-center gap-4 py-10">
+        <img src="img/holiday-1.jpg.svg" alt="Holiday 1" class="w-24 h-24 object-cover" />
+        <img src="img/holiday-2.jpg.svg" alt="Holiday 2" class="w-24 h-24 object-cover" />
+        <img src="img/holiday-3.jpg.svg" alt="Holiday 3" class="w-24 h-24 object-cover" />
+    </section>
+
+    <!-- Perfect Holiday -->
+    <section class="text-center py-10">
+      <h3 class="text-orange-500 font-bold">Choose Tour</h3>
+      <h2 class="text-3xl font-bold">Perfect Holiday</h2>
+      <p class="text-gray-500 mb-8">
+        Plan your vacation with our exclusive offers
+      </p>
+
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4 max-w-6xl mx-auto"
+      >
+        <div>
+          <img src="img/holiday-1.jpg.svg" class="rounded mb-2" />
+          <h4 class="font-bold">Winter Tour</h4>
+          <p class="text-sm text-gray-600">Austria</p>
+        </div>
+        <div>
+          <img src="img/holiday-2.jpg.svg" class="rounded mb-2" />
+          <h4 class="font-bold">Summer Vibes</h4>
+          <p class="text-sm text-gray-600">Greece</p>
+        </div>
+        <div>
+          <img src="img/holiday-3.jpg.svg" class="rounded mb-2" />
+          <h4 class="font-bold">Beach Holiday</h4>
+          <p class="text-sm text-gray-600">Thailand</p>
+        </div>
+        <div>
+          <img src="img/holiday-4.jpg.svg" class="rounded mb-2" />
+          <h4 class="font-bold">City Break</h4>
+          <p class="text-sm text-gray-600">London</p>
+        </div>
+        <div>
+          <img src="img/holiday-5.jpg.svg" class="rounded mb-2" />
+          <h4 class="font-bold">Adventure</h4>
+          <p class="text-sm text-gray-600">Bali</p>
+        </div>
+        <div>
+          <img src="img/holiday-6.jpg.svg" class="rounded mb-2" />
+          <h4 class="font-bold">Island Safari</h4>
+          <p class="text-sm text-gray-600">Maldives</p>
+        </div>
+      </div>
+
+      <button
+        class="mt-8 bg-green-500 text-white px-6 py-2 rounded hover:bg-green-600"
+      >
+        View All
+      </button>
+    </section>
+
+    <!-- Gallery -->
+    <section class="text-center py-10">
+      <h3 class="text-orange-500 font-bold">Our Tour</h3>
+      <h2 class="text-2xl font-bold mb-6">Gallery</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 px-4 max-w-6xl mx-auto">
+        <img src="img/gallery-1.jpg.svg" class="w-full rounded" />
+        <img src="img/gallery-2.jpg.svg" class="w-full rounded" />
+        <img src="img/gallery-3.jpg.svg" class="w-full rounded" />
+        <img src="img/gallery-4.jpg.svg" class="w-full rounded" />
+        <img src="img/gallery-5.jpg.svg" class="w-full rounded" />
+        <img src="img/gallery-6.jpg.svg" class="w-full rounded" />
+        <img src="img/gallery-7.jpg.svg" class="w-full rounded" />
+        <img src="img/gallery-8.jpg.svg" class="w-full rounded" />
+        <img src="img/gallery-9.jpg.svg" class="w-full rounded" />
+        <img src="img/gallery-10.jpg.svg" class="w-full rounded" />
+        <img src="img/gallery-11.jpg.svg" class="w-full rounded" />
+        <img src="img/gallery-12.jpg.svg" class="w-full rounded" />
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <footer class="bg-gray-100 text-center py-10">
+      <h3 class="text-orange-500 font-bold">Our Partner</h3>
+      <h2 class="text-xl font-bold mb-4">Contact Us</h2>
+      <div class="flex justify-center gap-4 text-gray-600 text-2xl">
+        <a href="#">🌐</a>
+        <a href="#">📧</a>
+        <a href="#">📱</a>
+      </div>
+      <p class="mt-4 text-sm text-gray-500">
+        &copy; 2025 Travel. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
